@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+/** THIS FILE MUST BE USED ONLY FOR STYLING WITHIN **/
+/** THE MAIN TEXT AREA **/
+
+.MTA h1{
+}
+
+.MTA h2{
+}
+
+.MTA h3{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:1.4em;
+	font-weight:normal;
+}
+
+.MTA h4{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:1.0em;
+	font-weight:normal;
+}
+
+.MTA h5{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.MTA h6{
+}
+
+.MTA p {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.9em;
+}
+
+.MTA p img.left {
+	margin:5px 5px 5px 0px;
+	float:left;
+}
+
+.MTA p img.right {
+	margin:0px 5px 5px 5px;
+	float:right;
+}
+
+.MTA ul {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.9em;
+	list-style-type:disc;
+	padding-left:3.0em;
+}
+
+.horizontal_rule {
+	height:10px;
+	max-width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:1em;
+	margin-bottom:1em;
+	background-image:url(../images/horizontal_rule.jpg);
+	background-repeat:repeat-x;
+}
+
+.links {
+	padding-top:10px;
+	text-align:right;	
+}
+
+.ukDailyForecast {
+}
+
+.ukDailyForecast_forecastTemps {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.9em;
+}
+
+.ukDailyForecast_forecastTemps_location {
+	width:100px;
+	height:60px;
+	font-weight:bold;
+}
+
+.ukDailyForecast_forecastTemps_weather {
+	width:360px;	
+}
+
+.specialEventsForecastOverview {
+}
+
+.specialEventsForecastOverview th {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:1.0em;
+	font-weight:bold;
+}
+
+.specialEventsForecastOverview .leftColumn {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.9em;
+	font-weight:bold;
+}
+
+.specialEventsForecastOverview .dataColumn {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.9em;
+	text-align:center;
+}
+
+.administration .leftColumn {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.9em;
+	font-weight:bold;
+}
+
+.administration .dataColumn {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.9em;
+}

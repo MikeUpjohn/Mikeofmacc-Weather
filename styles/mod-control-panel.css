@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+.loginContainer {
+	max-width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid #000;
+	background-color:#09F;
+	padding:1em;
+}
+
+.login table{
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.login td {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.8em;
+	font-weight:bold;
+	color:#003;
+}
+
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.3em;
+	font-weight:bold;
+	line-height:2em;
+	text-align:center;
+}
+
+.newUserRegister {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.7em;
+	text-align:center;
+}
+
+.registerContainer {
+	max-width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#CFF;
+	border:1px solid #000;
+}
+
+.MTA .formError {
+	max-width:75%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.7em;
+	text-align:center;
+	background-color:#FCC;
+	border: 1px solid #F03;
+	margin-bottom:15px;
+}
+
+.MTA table.administration {
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.MTA table.administration td.leftColumn {
+	width:35%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.9em;
+	font-weight:bold;
+}
+
+.MTA table.administration td.divider {
+	height:1.3em;
+}
+
+.MTA table.administration td.dataColumn input.veryShort {
+	width:5%;
+}
+
+.MTA table.administration td.dataColumn input.short {
+	width:10%;
+}
+
+.MTA table.administration td.dataColumn input.long {
+	width:50%;
+}
+
+.MTA table.administration td.submitArea {
+	text-align:center;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+
+.MTA table.administration td.dataColumn textarea.largeText {
+	width:350px;
+	height:150px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+}
+
+.MTA table.administration input, .MTA table.administration textarea, .MTA table.administration select, .MTA table.administration submit {
+	border:1px solid #000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+}
+
+.MTA table.administration input.buttonSubmit {
+	padding:0.2em;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+}
+
+.MTA table.administration select.select_Date,  .MTA table.administration select.select_Month {
+	width:45px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+}
+
+.MTA table.administration select.select_Year {
+	width:60px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+}
+
+.MTA table.administration select.select_Weather {
+	width:60px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.85em;
+}
+
+.administrationDataTable {
+	border-collapse:collapse;
+	font-size:0.9em;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.administrationDataTable td, .administrationDataTable th {
+	padding:3px 3px 3px 3px;
+}
+
+.MTA h1 {
+}
+.MTA h2 {
+}
+.MTA h3 {
+}
+.MTA h4 {
+}
+.MTA h5 {
+}
+.MTA h6 {
+}
+
+.unauthorised_container {
+	max-width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#C3D1FD;
+	border: 2px solid #006;
+	margin-top:5em;
+	min-height:270px;
+}
+
+h1 {
+	font-family:"Myriad Pro", Tahoma;
+	font-size:2.5em;
+	font-weight:bold;
+	text-align:center;
+}
+
+h3 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:1.3em;
+	font-weight:normal;
+}
+
+h4 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:1em;
+	font-weight:normal;
+}
+
+.unauthorised_right {
+	padding-right:0.5em;
+	text-align:center;
+}

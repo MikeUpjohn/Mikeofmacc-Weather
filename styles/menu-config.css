@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+/** THIS FILE MUST BE USED ONLY FOR STYLING **/
+/** WITHIN THE MENU **/
+
+.menu ul {											/** MAIN MENU ITEMS ONLY **/
+	margin:0.0em;								/** Set Default Margin to 0 **/
+	padding:0.0em;								/** Set Default Padding to 0 **/
+	list-style:none;							/** Remove Bullets **/
+	width:100%;									/** Allow main menu to take 100% width of the div tags it is located in **/
+	border-bottom:1px solid #000;				/** Adds a border to the bottom of the last item in the main menu **/
+	font-family:Verdana, Geneva, sans-serif;	/** All fonts will user this font family in the menu **/					/** CHANGE THIS TO CHANGE MENU FONT **/
+	font-size:0.8em;							/** All fonts will appear at this size **/									/** CHANGE THIS TO CHANGE MENU FONT SIZE **/
+	font-weight:bold;							/** Displays all items in the main menu in bold **/
+}
+
+.menu ul li {											/** POSITING OF SUB-MENU ITEMS **/
+	position:relative;							/** Displays all sub-menus in a position relative to the ul tag above **/
+}
+
+.menu li ul {											/** SUB-MENU ITEMS ONLY **/
+	position:absolute;							/** Places all sub-menus relative to the main parent menu **/
+	left:100%;									/** Works only if the above is set to absolute. Starts the sub-menu items at 100% width of the parent items **/
+	top:0.0em;									/** Displays the sub-menus at same level on page as the parent menus **/
+	display:none;								/** Initially on loading the page doesn't show sub-menu's **/
+	font-size:0.9em;							/**	0.9x the font size of the main menu **/									/** CHANGE THIS TO CHANGE SUB-MENU FONT SIZE **/
+	font-weight:normal;							/** Normal font weight **/
+}
+
+.menu ul li a {										/** ALL MENU ITEMS **/
+	display:block;								/** Displays each item in each sub-menu in list order **/
+	text-decoration:none;						/** Remove underline from hyperlinks **/
+	color:#333;									/** Text color **/															/** CHANGE THIS TO CHANGE TEXT COLOR ON MENU **/
+	background-color:#A3C6F1;					/** Background color **/													/** CHANGE THIS TO CHANGE BACKGROUND COLOR ON MENU **/
+	padding:5px;								/** Padding around all menu items between edge of menu item and text **/
+	border:1px solid #000;						/** Border around each menu item **/
+	border-bottom: 0.0em;						/** Overlaps border of two menu items **/
+}
+
+.menu ul li a:hover {									/** HOVERING OVER A MENU ITEM **/
+	display:block;								/** Displays each item in each sub-menu in list order **/
+	text-decoration:none;						/** Remove underline from hyperlinks **/
+	color:#00C;									/** Text color **/															/** CHANGE THIS TO CHANGE TEXT ROLLOVER COLOR ON MENU **/
+	background-color:#A3C6F1;					/** Background color **/												/** CHANGE THIS TO CHANGE BKGND ROLLOVER COLOR ON MENU **/
+	padding:5px;								/** Padding around all menu items **/
+	border:1px solid #000;						/** Border around all menu items **/
+	border-bottom: 0.0em;						/** Overlaps border of two menu items **/
+}
+
+/* IE Fix. Hide from MAC's running IE */
+* html ul li {
+	float:left;
+}
+
+* html ul li a {
+	height: 0%;
+}
+/* End IE Fix */
+
+.menu li:hover ul {									/** OPENS MENU OUT ON ROLLOVER **/
+	display:block;								/** Displays each item in the main menu in list order **/
+}

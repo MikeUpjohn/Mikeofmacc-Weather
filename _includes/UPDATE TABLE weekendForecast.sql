@@ -1,0 +1,1 @@
+UPDATE weekendForecast SET forecastStartDate='$_POST[forecastStartDate]', forecastEndDate='$_POST[forecastEndDate]', issueDate='$_POST[issueDate]', issueMonth='$_POST[issueMonth]', issueYear='$_POST[issueYear]', issueTime='$_POST[issueTime]', synopsis='$_POST[synopsis]', forecasterName='$_POST[forecasterName]' WHERE forecastID='1'
